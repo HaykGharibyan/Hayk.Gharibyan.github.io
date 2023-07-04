@@ -1,0 +1,65 @@
+.section-1 {
+  background-color: rgb(100, 100, 100);
+  padding: 30px;
+  text-align: center;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+  margin: auto;
+  width: 450px;
+
+  margin-top: 200px;
+  flex-direction: column;
+
+  border: solid 6px rgb(58, 85, 236);
+}
+#amount {
+  color: #fff;
+  border: solid 3px rgb(61, 90, 255);
+  background-color: rgb(100, 100, 100);
+  margin-top: 5px;
+}
+#fromCurrency {
+  color: #fff;
+  border: solid 3px rgb(61, 90, 255);
+  background-color: rgb(100, 100, 100);
+  margin-top: 5px;
+}
+#toCurrency {
+  color: #fff;
+  border: solid 3px rgb(61, 90, 255);
+  background-color: rgb(100, 100, 100);
+  margin-top: 5px;
+}
+.btn-animated {
+  animation: fadeIn 1s ease-in-out;
+  transition: transform 0.3s ease;
+  margin-top: 10px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.btn-animated:hover {
+  transform: scale(1.05);
+}
+#result {
+  margin-top: 10px;
+  border: solid 2px rgb(61, 90, 255);
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+}
+.vernagir {
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+.custom-bg {
+  background-color: #4b4b4b;
+}
